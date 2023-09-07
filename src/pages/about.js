@@ -66,7 +66,7 @@ const about = () => {
 
 						<p className='font-medium'>
 							I am eagerly anticipating the chance to contribute my expertise and passion to your next project, 
-							where I can help elevate your digital presence and engage your audience effectively."
+							where I can help elevate your digital presence and engage your audience effectively.
 						</p>
 					</div>
 
