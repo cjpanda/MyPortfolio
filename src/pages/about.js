@@ -1,14 +1,14 @@
-import AnimatedText from '@/components/AnimatedText'
-import Layout from '@/components/Layout'
-import Head from 'next/head'
-import Image from 'next/image'
-import React, { useEffect, useRef } from 'react'
-import ceejay from '../../public/images/profile/ceejay.jpeg'
-import { useInView, useMotionValue, useSpring } from 'framer-motion'
-import Skills from '@/components/Skills'
-import Experience from '@/components/Experience'
-import Education from '@/components/Education'
-import TransitionEffect from '@/components/TransitionEffect'
+import AnimatedText from '@/components/AnimatedText';
+import Layout from '@/components/Layout';
+import Head from 'next/head';
+import Image from 'next/image';
+import React, { useEffect, useRef } from 'react';
+import ceejay from '../../public/images/profile/ceejay.jpeg';
+import { useInView, useMotionValue, useSpring } from 'framer-motion';
+import Skills from '@/components/Skills';
+import Experience from '@/components/Experience';
+import Education from '@/components/Education';
+import TransitionEffect from '@/components/TransitionEffect';
 
 
 const AnimatedNumbers = ({value}) => {
@@ -66,7 +66,7 @@ const about = () => {
 
 						<p className='font-medium'>
 							I am eagerly anticipating the chance to contribute my expertise and passion to your next project, 
-							where I can help elevate your digital presence and engage your audience effectively."
+							where I can help elevate your digital presence and engage your audience effectively.
 						</p>
 					</div>
 
