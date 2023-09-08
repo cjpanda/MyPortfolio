@@ -34,11 +34,11 @@ export default function Home() {
               </p>
 
               <div className='flex items-center self-start mt-2 lg:self-center'>
-                <Link href='/dummy.pdf' target={"-blank"}
+                <Link href='/Resume.pdf' target={"-blank"}
                 className='flex items-center bg-dark dark:bg-light dark:text-dark  text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-purple-900 hover:dark:bg-purple-900 hover:text-light hover:dark:text-light hover:border-transparent border-2 border-solid border-transparent
                 hover:border-dark md:p-2 md:px-4 md:text-base'
                 download={true}
-                >Resume <LinkArrow className={"w-6 ml-1"} />
+                >Resume <LinkArrow  className={"w-6 ml-1"} />
                 </Link>
                 <Link href='/contact' className='ml-4 text-lg font-medium capitalize dark:text-light text-dark underline md:text-base'>Contact Me</Link>
               </div>
