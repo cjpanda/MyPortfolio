@@ -8,6 +8,7 @@ import { GithubIcon } from '@/components/Icons';
 import project1 from '../../public/images/projects/FullResponsiveLandingPage.png';
 import project2 from '../../public/images/projects/portfolio-page.png';
 import project3 from '../../public/images/projects/responsiveproject.png';
+import project4 from '../../public/images/projects/promptpal.png';
 import { motion } from 'framer-motion';
 import TransitionEffect from '@/components/TransitionEffect';
 
@@ -103,13 +104,13 @@ const projects = () => {
         <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
           <div className='col-span-12'>
             <FeaturedProject 
-              title= "Portfolio Project"
-              img={project2}
-              summary=" A fully responsive Portfolio page to show case my projects and work experiences.
-              This Project was developed with NextJS, TailwindCSS, Framer-Motion and Web3Forms API for the contact form"
-              link="https://cjpanda.github.io/landingpage_bank/"
-              github="https://github.com/cjpanda/landingpage_bank"
-              type="Featured Project(FrontEnd)"
+              title= "Project PromptPal"
+              img={project4}
+              summary=" PromptPal is an open-source tool to create and share creative AI prompts. Features Include; User Login with GoogleAuth, User Profile, Create Save and Delete Prompts, NextAuth for Authentication.
+              This Project was developed with NextJS, TailwindCSS, MongoDB, GoogleAuth, NextAuth"
+              link="https://promptpal-project-nyk79e276-cjpanda.vercel.app/"
+              github="https://github.com/cjpanda/promptpal_project"
+              type="Featured Project(FullStack)"
             />
           </div>
 
@@ -135,10 +136,10 @@ const projects = () => {
 
           <div className='col-span-12'>
             <FeaturedProject 
-              title= "Responsive Landing Page"
-              img={project1}
-              summary=" A fully responsive Landing page for a Bank or credit card company.
-              This Landing page was developed using React ,Vitejs and TailwindCSS"
+              title= "Portfolio Project"
+              img={project2}
+              summary=" A fully responsive Portfolio page to show case my projects and work experiences.
+              This Project was developed with NextJS, TailwindCSS, Framer-Motion and Web3Forms API for the contact form"
               link="https://cjpanda.github.io/landingpage_bank/"
               github="https://github.com/cjpanda/landingpage_bank"
               type="Featured Project(FrontEnd)"
