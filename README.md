@@ -10,4 +10,3 @@
 
 
 
-This was adapted from CodeBucks Project with some additions of my own. 
