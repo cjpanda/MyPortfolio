@@ -4,7 +4,6 @@ import Image from 'next/image'
 import hero from '../../public/images/profile/hero.png'
 import AnimatedText from '@/components/AnimatedText'
 import Link from 'next/link'
-import { LinkArrow } from '@/components/Icons'
 import HireMe from '@/components/HireMe'
 import TransitionEffect from '@/components/TransitionEffect'
 
@@ -38,7 +37,7 @@ export default function Home() {
                 className='flex items-center bg-dark dark:bg-light dark:text-dark  text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-purple-900 hover:dark:bg-purple-900 hover:text-light hover:dark:text-light hover:border-transparent border-2 border-solid border-transparent
                 hover:border-dark md:p-2 md:px-4 md:text-base'
                 download={true}
-                >Resume <LinkArrow  className={"w-6 ml-1"} />
+                >Download CV 
                 </Link>
                 <Link href='/contact' className='ml-4 text-lg font-medium capitalize dark:text-light text-dark underline md:text-base'>Contact Me</Link>
               </div>

@@ -108,9 +108,9 @@ const projects = () => {
 
           <div className='col-span-12'>
             <FeaturedProject 
-              title= "Ecommerce Dashboard"
+              title= "Ecommerce Dashboard + Store"
               img={project5}
-              summary=" A dashboard page that can feature more than one Ecommerce shop.
+              summary=" This dashboard features one or more Ecommerce stores.
               Developed Using: Reactjs, NextJs, Typescript, Shadcn UI, Database:Planetscale(MySQL), PrismaDB, 
               TailwindCSS, Stripe API, Clerk for User Account and Auth, Cloudinary for Image Uploads."
               link=" https://ecommerce-dashboard-theta-nine.vercel.app"
@@ -141,15 +141,17 @@ const projects = () => {
 
           <div className='col-span-12'>
             <FeaturedProject 
-              title= "Project PromptPal"
-              img={project4}
-              summary=" PromptPal is an open-source tool to create and share creative AI prompts. Features Include; User Login with GoogleAuth, User Profile, Create Save and Delete Prompts, NextAuth for Authentication.
-              This Project was developed with NextJS, TailwindCSS, MongoDB, GoogleAuth, NextAuth"
-              link="https://promptpal-project-nyk79e276-cjpanda.vercel.app/"
-              github="https://github.com/cjpanda/promptpal_project"
-              type="Featured Project(FullStack)"
+              title= "Ecommerce Store"
+              img={project2}
+              summary=" An Ecommerce Store Powered by Ecommerce Dashboard project.
+              Developed Using: Reactjs, NextJs, Typescript, 
+              TailwindCSS."
+              link=" https://ecommerce-store-chi-six.vercel.app/"
+              github="https://github.com/cjpanda/ecommerce-store"
+              type="Featured Project(Fullstack)"
             />
           </div>
+
     
           <div className='col-span-6 sm:col-span-12'>
             <Project 
@@ -173,14 +175,13 @@ const projects = () => {
 
           <div className='col-span-12'>
             <FeaturedProject 
-              title= "Ecommerce Store"
-              img={project2}
-              summary=" An Ecommerce Store Powered by Ecommerce Dashboard project.
-              Developed Using: Reactjs, NextJs, Typescript, 
-              TailwindCSS, Stripe API, Clerk for User Account and Auth, Cloudinary for Image Uploads."
-              link=" https://ecommerce-store-chi-six.vercel.app/"
-              github="https://github.com/cjpanda/ecommerce-store"
-              type="Featured Project(Fullstack)"
+              title= "Project PromptPal"
+              img={project4}
+              summary=" PromptPal is an open-source tool to create and share creative AI prompts. Features Include; User Login with GoogleAuth, User Profile, Create Save and Delete Prompts, NextAuth for Authentication.
+              This Project was developed with NextJS, TailwindCSS, MongoDB, GoogleAuth, NextAuth"
+              link="https://promptpal-project-nyk79e276-cjpanda.vercel.app/"
+              github="https://github.com/cjpanda/promptpal_project"
+              type="Featured Project(FullStack)"
             />
           </div>
 
