@@ -6,7 +6,6 @@ import AnimatedText from '@/components/AnimatedText'
 import Link from 'next/link'
 import HireMe from '@/components/HireMe'
 import TransitionEffect from '@/components/TransitionEffect'
-import { LinkArrow } from '@/components/Icons'
 
 
 
