@@ -3,7 +3,7 @@ import Layout from '@/components/Layout';
 import Head from 'next/head';
 import Image from 'next/image';
 import React, { useEffect, useRef } from 'react';
-import ceejay from '../../public/images/profile/ceejay.jpeg';
+import aboutme from '../../public/images/profile/aboutme.jpeg';
 import { useInView, useMotionValue, useSpring } from 'framer-motion';
 import Skills from '@/components/Skills';
 import Experience from '@/components/Experience';
@@ -55,7 +55,7 @@ const about = () => {
 						<h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light'>Biography</h2>
 
 						<p className='font-medium'>Hello, My name is Benedict , a dedicated web developer with a flair for crafting stunning, functional, and user-centric web experiences.
-							With 3 years of hands-on experience in the field, 
+							With over 3 years of hands-on experience in the field, 
 							I am constantly on the lookout for fresh and innovative ways to transform my clients visions into reality.
 						</p>
 
@@ -73,14 +73,14 @@ const about = () => {
 
 					<div className='col-span-3 relative h-max  rounded-3xl border-2 border-solid border-dark bg-light p-8 xl:col-span-4 md:order-1 md:col-span-8 '>
 						<div className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-3xl bg-dark ' />
-						<Image src={ceejay} alt="cjpanda" className='w-full h-auto  rounded-3xl'  priority sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"/>
+						<Image src={aboutme} alt="cjpanda" className='w-full h-auto  rounded-3xl'  priority sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"/>
 					</div>
 
 					<div className='col-span-2 flex flex-col items-end justify-between text-dark dark:text-light xl:col-span-8 xl:flex-row xl:items-center md:order-3'>
 
 							<div className='flex flex-col items-end justify-center xl:items-center'>
 								<span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl '>
-									<AnimatedNumbers  value={30}/>+
+									<AnimatedNumbers  value={20}/>+
 								</span>
 								<h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm '>satisfied clients</h2>
 							</div>

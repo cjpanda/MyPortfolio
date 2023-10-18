@@ -6,9 +6,12 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { GithubIcon } from '@/components/Icons';
 import project1 from '../../public/images/projects/FullResponsiveLandingPage.png';
-import project2 from '../../public/images/projects/portfolio-page.png';
+import project2 from '../../public/images/projects/ecommerceshop.png';
 import project3 from '../../public/images/projects/responsiveproject.png';
 import project4 from '../../public/images/projects/promptpal.png';
+import project5 from '../../public/images/projects/dashboard.png';
+import project6 from '../../public/images/projects/fullstackblog.png'
+import project7 from '../../public/images/projects/portfolio-page.png'
 import { motion } from 'framer-motion';
 import TransitionEffect from '@/components/TransitionEffect';
 
@@ -102,15 +105,17 @@ const projects = () => {
         <AnimatedText text="Project Library" className='mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl'/>
 
         <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
+
           <div className='col-span-12'>
             <FeaturedProject 
-              title= "Project PromptPal"
-              img={project4}
-              summary=" PromptPal is an open-source tool to create and share creative AI prompts. Features Include; User Login with GoogleAuth, User Profile, Create Save and Delete Prompts, NextAuth for Authentication.
-              This Project was developed with NextJS, TailwindCSS, MongoDB, GoogleAuth, NextAuth"
-              link="https://promptpal-project-nyk79e276-cjpanda.vercel.app/"
-              github="https://github.com/cjpanda/promptpal_project"
-              type="Featured Project(FullStack)"
+              title= "Ecommerce Dashboard"
+              img={project5}
+              summary=" A dashboard page that can feature more than one Ecommerce shop.
+              Developed Using: Reactjs, NextJs, Typescript, Shadcn UI, Database:Planetscale(MySQL), PrismaDB, 
+              TailwindCSS, Stripe API, Clerk for User Account and Auth, Cloudinary for Image Uploads."
+              link=" https://ecommerce-dashboard-theta-nine.vercel.app"
+              github="https://github.com/cjpanda/ecommerce-dashboard"
+              type="Featured Project(Fullstack)"
             />
           </div>
 
@@ -130,40 +135,52 @@ const projects = () => {
               img={project3}
               link="https://cjpanda.github.io/gpt3-ben/"
               github="https://github.com/cjpanda/gpt3-ben"
-              type="GPT3 (FrontEnd)"
+              type="Frontend Project"
             />
           </div>
 
           <div className='col-span-12'>
             <FeaturedProject 
-              title= "Portfolio Project"
-              img={project2}
-              summary=" A fully responsive Portfolio page to show case my projects and work experiences.
-              This Project was developed with NextJS, TailwindCSS, Framer-Motion and Web3Forms API for the contact form"
-              link="https://cjpanda.github.io/landingpage_bank/"
-              github="https://github.com/cjpanda/landingpage_bank"
-              type="Featured Project(FrontEnd)"
+              title= "Project PromptPal"
+              img={project4}
+              summary=" PromptPal is an open-source tool to create and share creative AI prompts. Features Include; User Login with GoogleAuth, User Profile, Create Save and Delete Prompts, NextAuth for Authentication.
+              This Project was developed with NextJS, TailwindCSS, MongoDB, GoogleAuth, NextAuth"
+              link="https://promptpal-project-nyk79e276-cjpanda.vercel.app/"
+              github="https://github.com/cjpanda/promptpal_project"
+              type="Featured Project(FullStack)"
             />
           </div>
-          
-          
+    
           <div className='col-span-6 sm:col-span-12'>
             <Project 
-              title= "FrontEnd Landing Page"
-              img={project1}
-              link="https://cjpanda.github.io/landingpage_bank/"
-              github="https://github.com/cjpanda/landingpage_bank"
-              type="Project(FrontEnd)"
+              title= "Blog"
+              img={project6}
+              link="https://github.com/cjpanda/fullstackblog_project"
+              github="https://github.com/cjpanda/fullstackblog_project"
+              type="Fullstack Project"
             />
           </div>
 
           <div className='col-span-6 sm:col-span-12'>
             <Project 
-              title= "FrontEnd Landing Page"
-              img={project1}
-              link="https://cjpanda.github.io/landingpage_bank/"
-              github="https://github.com/cjpanda/landingpage_bank"
-              type="Project(FrontEnd)"
+              title= "My Portfolio"
+              img={project7}
+              link="https://cjpanda.github.io/MyPortfolio/"
+              github="https://github.com/cjpanda/MyPortfolio"
+              type="Frontend Project"
+            />
+          </div>
+
+          <div className='col-span-12'>
+            <FeaturedProject 
+              title= "Ecommerce Store"
+              img={project2}
+              summary=" An Ecommerce Store Powered by Ecommerce Dashboard project.
+              Developed Using: Reactjs, NextJs, Typescript, 
+              TailwindCSS, Stripe API, Clerk for User Account and Auth, Cloudinary for Image Uploads."
+              link=" https://ecommerce-store-chi-six.vercel.app/"
+              github="https://github.com/cjpanda/ecommerce-store"
+              type="Featured Project(Fullstack)"
             />
           </div>
 

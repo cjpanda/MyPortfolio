@@ -30,7 +30,7 @@ export default function Home() {
             <div className='w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center '>
               <AnimatedText text="Welcome To My Portfolio." className='!text-7xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl'/>
               <p className='my-4 text-base font-medium md:text-sm sm:text-xs'>
-                I am a skilled and motivated full-stack web developer committed to crafting flawless web applications. Dive into my portfolio showcasing cutting-edge projects built with the latest web development technologies.
+                I am a skilled and motivated fullstack developer committed to crafting flawless web applications. Dive into my portfolio showcasing cutting-edge projects built with the latest web development technologies.
               </p>
 
               <div className='flex items-center self-start mt-2 lg:self-center'>
