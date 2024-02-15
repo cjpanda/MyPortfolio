@@ -9,7 +9,7 @@ import project1 from "../../public/images/projects/FullResponsiveLandingPage.png
 import project2 from "../../public/images/projects/CarlandRental.png";
 import project3 from "../../public/images/projects/responsiveproject.png";
 import project4 from "../../public/images/projects/promptpal.png";
-import project5 from "../../public/images/projects/dashboard.png";
+import project5 from "../../public/images/projects/joblisting.png";
 import project6 from "../../public/images/projects/fullstackblog.png";
 import project7 from "../../public/images/projects/portfolio-page.png";
 import { motion } from "framer-motion";
@@ -142,14 +142,12 @@ const projects = () => {
             {/* Project 1 */}
             <div className="col-span-12">
               <FeaturedProject
-                title="Ecommerce Dashboard + Store"
+                title="Job Listings Website with RapidAPI"
                 img={project5}
-                summary=" This dashboard features one or more Ecommerce stores.
-              Developed Using: Reactjs, NextJs, Typescript, Shadcn UI, Database:Planetscale(MySQL), PrismaDB, 
-              TailwindCSS, Stripe API, Clerk for User Account and Auth, Cloudinary for Image Uploads."
-                link=" https://ecommerce-dashboard-theta-nine.vercel.app"
-                github="https://github.com/cjpanda/ecommerce-dashboard"
-                type="Featured Project(Fullstack)"
+                summary=" This is a Job Listing web application, developed with Reatc/ViteJS, Tailwindcss, React Icons, and JSearch API from Rapid API."
+                link="https://job-listing-webapp-eight.vercel.app/"
+                github="https://github.com/cjpanda/Job-listing-webapp"
+                type="Featured Project"
               />
             </div>
             {/* Project 2 small */}
