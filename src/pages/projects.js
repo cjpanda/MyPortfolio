@@ -5,7 +5,7 @@ import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import Image from "next/image";
 import { GithubIcon } from "@/components/Icons";
-import project1 from "../../public/images/projects/FullResponsiveLandingPage.png";
+import project1 from "../../public/images/projects/easybank.png";
 import project2 from "../../public/images/projects/CarlandRental.png";
 import project3 from "../../public/images/projects/responsiveproject.png";
 import project4 from "../../public/images/projects/promptpal.png";
@@ -127,7 +127,7 @@ const projects = () => {
   return (
     <>
       <Head>
-        <title>cjpanda | Projects</title>
+        <title>Ceejay | Projects</title>
         <meta name="Portfolio Projects" content="Browse through my projects" />
       </Head>
       <TransitionEffect />
@@ -153,10 +153,10 @@ const projects = () => {
             {/* Project 2 small */}
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="HooBank Landing Page"
+                title="Easybank Landing Page"
                 img={project1}
-                link="https://cjpanda.github.io/landingpage_bank/"
-                github="https://github.com/cjpanda/landingpage_bank"
+                link="https://easybank-landing-page-lovat-mu.vercel.app/"
+                github="https://github.com/cjpanda/Easybank-landing-page"
                 type="FrontEnd Project"
               />
             </div>

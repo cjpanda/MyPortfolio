@@ -38,7 +38,7 @@ const about = () => {
   return (
     <>
       <Head>
-        <title>cjpanda | About Page</title>
+        <title>Ceejay| About Page</title>
         <meta
           name="Portfolio About Page"
           content="Full Stack Developer Portfolio About Me Page"
